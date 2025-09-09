@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tidning</title>
+</head>
+
+<body>
+<div style="width:100px;height:100px;background-color:gray;border-radius:50%;"> </div>
+<H1>Tidningsnamn</H1>
+
+    <label for="Sök">Sök:</label>
+    <input type="text" id="Sök" name="Sök" placeholder="Sök">
+
+    <div style="text-align:left;">
+        <h2>Hem</h2>
+        <h2>Senaste nytt</h2>
+        <h2>Arkiv</h2>
+        <h2>Kontakta oss</h2>
+    </div>
+
+    <div style="text-align:left;">
+        <h1>Huvudartikelns titel</h1> 
+        <img src="bild.jpg" alt="placeholder" style="width:300px;height:200px;background-color:lightgray;margin-top:20px;">
+        <h1>Andra artikelns titel</h1>
+        <img src="bild.jpg" alt="placeholder" style="width:300px;height:200px;background-color:lightgray;margin-top:20px;">
+        <h1>Tredje artikelns titel</h1>
+        <img src="bild.jpg" alt="placeholder" style="width:300px;height:200px;background-color:lightgray;margin-top:20px;">
+    </div>
+    
+    <div>
+        <h3>
+            Carrot cake muffin donut cotton candy sugar plum. 
+            Biscuit caramels chupa chups gummi bears fruitcake marzipan chocolate. 
+            Tootsie roll cake bonbon bonbon sweet roll. 
+            Gummies chocolate bar pastry tiramisu chocolate sesame snaps. 
+            Cupcake biscuit jelly marshmallow liquorice bear claw fruitcake. 
+            Jelly donut gummies jelly beans bonbon. Ice cream cake croissant 
+            gummies candy canes icing pastry pastry. 
+            Cookie ice cream chocolate bonbon cheesecake cookie sweet roll pudding carrot cake. 
+            Chocolate bear claw caramels wafer sweet topping sweet.
+        </h3>
+        <h3>
+           Apple pie pie cupcake dessert lollipop icing toffee soufflé. Bonbon ice cream marshmallow sesame snaps chupa chups lemon drops.
+        </h3>
+        <h3>
+            Carrot cake muffin donut cotton candy sugar plum. 
+            Biscuit caramels chupa chups gummi bears fruitcake marzipan chocolate. 
+            Tootsie roll cake bonbon bonbon sweet roll. 
+            Gummies chocolate bar pastry tiramisu chocolate sesame snaps. 
+            Cupcake biscuit jelly marshmallow liquorice bear claw fruitcake. 
+            Jelly donut gummies jelly beans bonbon. Ice cream cake croissant 
+            gummies candy canes icing pastry pastry. 
+            Cookie ice cream chocolate bonbon cheesecake cookie sweet roll pudding carrot cake. 
+            Chocolate bear claw caramels wafer sweet topping sweet.
+        </h3>
+        <h3>
+            Lorizzle ipsizzle phat shizzle my nizzle crocodizzle amizzle, yo mamma get down get down things. 
+            Nullam sapien velizzle, the bizzle shit, suscipit crackalackin, gravida cool, arcu. 
+            Pellentesque egizzle for sure. Sed erizzle.
+        </h3>
+    </div>
+
+    <div>
+        <h2>Tipsa redaktionen</h2>
+    </div>
+
+    <label for="namn">Ditt namn</label>
+    <input type="text" id="namn" name="namn" />
+
+    <label for="email">Din e-post</label>
+    <input type="email" id="email" name="email" />
+
+    <label for="tel">Din telefon</label>
+    <input type="tel" id="tel" name="tel" />
+
+    <div>
+        <label for="Amne">Välj ditt ämne</label>
+        <select name="Amne" id="ämnesval">
+            <option value="" hidden selected>Välj ämne</option>
+            <option value="Ämne1">Ämne1</option>
+            <option value="Ämne2">Ämne2</option>
+            <option value="Ämne3">Ämne3</option>
+            <option value="Ämne4">Ämne4</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="Meddelande">Ditt meddelande</label>
+        <textarea id="Meddelande" name="Meddelande" rows="4" cols="50" placeholder="Skriv ditt meddelande här..."></textarea>
+    </div>
+
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Kontakta mig</label>
+    </div>
+
+    <div>
+        <button type="submit">Skicka</button>
+    </div>
+
+    <div>
+        <select name="GDPR" id="GDPR" required>
+            <option value="" hidden selected>GDPR och villkor</option>
+            <option value="GDPR1">GDPR1</option>
+            <option value="GDPR2">GDPR2</option>
+            <option value="GDPR3">GDPR3</option>
+        </select>
+    </div>
+
+    <div>
+        <h5>Företagsnamn</h5>
+        <h5>Adress</h5>
+        <h5>Telefon</h5>
+        <h5>E-post</h5>
+        <h5>Sociala medier</h5>
+    </div>
+
+    <div>
+        <h5>Sitemap</h5>
+        <h5>Om oss</h5>
+    </div>
+
+    <div>
+        <h5>Sociala medier</h5>
+    </div>
+
+</body>
+</html>
