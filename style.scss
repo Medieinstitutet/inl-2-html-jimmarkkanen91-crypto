@@ -1,1 +1,14 @@
-@use    "vendor\_normalize";
+@use "vendor/_normalize.scss";
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+
+.head {
+  display: flex;
+  align-items: center;
+}
